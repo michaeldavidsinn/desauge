@@ -27,7 +27,7 @@
   --ogenix-base-rgb: 80, 167, 44;
   --ogenix-black: #2a491d;
   --ogenix-black-rgb: 42, 73, 29;
-  --ogenix-primary: #ffbd3c;
+  --ogenix-primary: #d8c8af;
   --ogenix-primary-rgb: 255, 189, 60;
   --ogenix-gray: #7d8978;
   --ogenix-gray-rgb: 125, 137, 120;
@@ -266,7 +266,7 @@ ul {
   right: 0;
   bottom: 0;
   width: 60px;
-  background-color: #f7b534;
+  background-color: #d8c8af;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
