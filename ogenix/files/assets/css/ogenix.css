@@ -707,11 +707,11 @@ ul {
 }
 
 .main-menu__btn {
-  background-color: var(--ogenix-base);
+  background-color: #b0a38d;
 }
 
 .main-menu__btn:before {
-  background-color: #4a9e27;
+  background-color: #d8c8af;
 }
 
 
@@ -789,9 +789,9 @@ ul {
   content: "";
   height: 3px;
   border-radius: 0px;
-  background-image: -moz-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
+  background-image: -moz-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
+  background-image: -webkit-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
+  background-image: -ms-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
   position: absolute;
   bottom: -30px;
   left: 0;
@@ -3668,7 +3668,7 @@ ul {
 }
 
 .categories-one__single-3 .categories-one__arrow {
-  background-color: rgb(254, 188, 60);
+  background-color: #d8c8af;
 }
 
 .categories-one__single-4 .categories-one__arrow {
@@ -3903,7 +3903,7 @@ ul {
 }
 
 .hot-products__rating i {
-  color: #ffbc3b;
+  color: #d8c8af;
   font-size: 11px;
 }
 
@@ -4764,9 +4764,9 @@ ul {
   left: 0;
   width: 41px;
   height: 3px;
-  background-image: -moz-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
+  background-image: -moz-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
+  background-image: -webkit-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
+  background-image: -ms-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
 }
 
 .gallery-one__title {
@@ -5394,9 +5394,9 @@ ul {
   right: -31px;
   width: 21px;
   height: 3px;
-  background-image: -moz-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
+  background-image: -moz-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
+  background-image: -webkit-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
+  background-image: -ms-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
 }
 
 .footer-widget__title {
@@ -6040,9 +6040,9 @@ ul {
   right: -13px;
   bottom: 204px;
   border-radius: 6px;
-  background-image: -moz-linear-gradient(90deg, rgb(255, 189, 60) 0%, rgb(80, 167, 44) 100%);
-  background-image: -webkit-linear-gradient(90deg, rgb(255, 189, 60) 0%, rgb(80, 167, 44) 100%);
-  background-image: -ms-linear-gradient(90deg, rgb(255, 189, 60) 0%, rgb(80, 167, 44) 100%);
+  background-image: -moz-linear-gradient(90deg, #d8c8af, rgb(80, 167, 44) 100%);
+  background-image: -webkit-linear-gradient(90deg, #d8c8af, rgb(80, 167, 44) 100%);
+  background-image: -ms-linear-gradient(90deg, #d8c8af, rgb(80, 167, 44) 100%);
   z-index: -1;
 }
 
@@ -6502,9 +6502,9 @@ ul {
   content: "";
   opacity: 0;
   height: 3px;
-  background-image: -moz-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(80, 167, 44) 0%, rgb(255, 189, 60) 100%);
+  background-image: -moz-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
+  background-image: -webkit-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
+  background-image: -ms-linear-gradient(0deg, rgb(80, 167, 44) 0%, #d8c8af);
   transition: all 0.4s ease;
 }
 
@@ -6890,7 +6890,7 @@ ul {
   font-weight: 700;
   line-height: 30px;
   font-family: var(--ogenix-font-two);
-  color: #ffbc3b;
+  color: #d8c8af;
 }
 
 .banner-three__title {
@@ -8005,9 +8005,9 @@ ul {
   bottom: -40px;
   left: 30px;
   border-radius: 50%;
-  background-image: -moz-linear-gradient(145deg, rgb(255, 188, 59) 0%, rgb(80, 167, 44) 100%);
-  background-image: -webkit-linear-gradient(145deg, rgb(255, 188, 59) 0%, rgb(80, 167, 44) 100%);
-  background-image: -ms-linear-gradient(145deg, rgb(255, 188, 59) 0%, rgb(80, 167, 44) 100%);
+  background-image: -moz-linear-gradient(145deg, #d8c8af, rgb(80, 167, 44) 100%);
+  background-image: -webkit-linear-gradient(145deg, #d8c8af, rgb(80, 167, 44) 100%);
+  background-image: -ms-linear-gradient(145deg, #d8c8af, rgb(80, 167, 44) 100%);
   width: 116px;
   height: 116px;
   z-index: 1;
@@ -10232,7 +10232,7 @@ ul {
 
 
 .pricing-page__single:hover .pricing-page__btn:before {
-  background-color: #f7b534;
+  background-color: #d8c8af;
   width: 190%;
 }
 
@@ -11164,9 +11164,9 @@ ul {
   top: 40px;
   bottom: 40px;
   width: 20px;
-  background-image: -moz-linear-gradient(90deg, rgb(255, 189, 60) 0%, rgb(80, 167, 44) 100%);
-  background-image: -webkit-linear-gradient(90deg, rgb(255, 189, 60) 0%, rgb(80, 167, 44) 100%);
-  background-image: -ms-linear-gradient(90deg, rgb(255, 189, 60) 0%, rgb(80, 167, 44) 100%);
+  background-image: -moz-linear-gradient(90deg, #d8c8af, rgb(80, 167, 44) 100%);
+  background-image: -webkit-linear-gradient(90deg, #d8c8af 0%, rgb(80, 167, 44) 100%);
+  background-image: -ms-linear-gradient(90deg, #d8c8af 0%, rgb(80, 167, 44) 100%);
   border-top-right-radius: var(--ogenix-bdr-radius);
   border-bottom-right-radius: var(--ogenix-bdr-radius);
   z-index: -1;
@@ -12155,7 +12155,7 @@ ul {
 }
 
 .product-details__buttons-2 .thm-btn:before {
-  background-color: #f7b534;
+  background-color: #d8c8af;
 }
 
 .product-details__social {
@@ -12770,7 +12770,7 @@ ul {
 }
 
 .cart-page__buttons-2 .thm-btn:before {
-  background-color: #f7b534;
+  background-color: #d8c8af;
 }
 
 /*--------------------------------------------------------------
