@@ -18,6 +18,10 @@
 # Common
 --------------------------------------------------------------*/
 
+.product-section {
+  margin-bottom: 80px; /* Atau ukuran yang sesuai dengan keinginan Anda */
+}
+
 .circular-image {
   width: 200px;
   height: 200px;
@@ -485,6 +489,13 @@ ul {
   display: block;
 }
 
+.main-header__logo,
+.main-header__right {
+    margin-bottom: 0; /* Menghapus margin bawah */
+}
+
+
+
 .main-header__top {
   position: relative;
   display: block;
@@ -630,7 +641,8 @@ ul {
 }
 
 .main-menu__main-menu-box {
-  padding-right: 25px;
+
+  margin-right: 20px;
 }
 
 .main-menu__right {
@@ -2389,8 +2401,24 @@ ul {
 
 .main-slider__img-one {
   position: absolute;
-  top: 105px;
-  right: 260px;
+  top: 15px;
+  right: 20px;
+  transform: translateX(400px);
+  z-index: 1;
+}
+
+.main-slider__img-ones {
+  position: absolute;
+  top: -70px;
+  right: 330px;
+  transform: translateX(400px);
+  z-index: 1;
+}
+
+.about-slider__img-one {
+  position: absolute;
+  top: 15px;
+  right: 20px;
   transform: translateX(400px);
   z-index: 1;
 }
@@ -2442,7 +2470,7 @@ ul {
 
 .main-slider__title {
   position: relative;
-  font-size: 90px;
+  font-size: 60px;
   color: var(--ogenix-black);
   font-weight: 800;
   line-height: 90px;
@@ -3205,7 +3233,7 @@ ul {
 }
 
 .about-one__img-box {
-  position: relative;
+  position: absolute;
   display: block;
   z-index: 1;
 }
@@ -3579,8 +3607,12 @@ ul {
   opacity: 1;
 }
 
+.categories-one__single-1 .categories-one__img::after {
+  background-color: #800000;
+}
+
 .categories-one__single-2 .categories-one__img::after {
-  background-color: rgb(255, 81, 81);
+  background-color: #1E90FF;
 }
 
 .categories-one__single-3 .categories-one__img::after {
@@ -3588,7 +3620,7 @@ ul {
 }
 
 .categories-one__single-4 .categories-one__img::after {
-  background-color: rgb(170, 129, 100);
+  background-color: rgb(255, 81, 81);
 }
 
 .categories-one__img img {
@@ -4102,7 +4134,7 @@ ul {
 
 .why-choose-one__img-2 {
   position: absolute;
-  bottom: -15px;
+  bottom: 100px;
   right: 0;
   z-index: -1;
 }
@@ -4459,8 +4491,8 @@ ul {
 
 .testimonial-one__img-2 {
   position: absolute;
-  top: 0;
-  right: -327px;
+  top: -190px;
+  left: -170px;
 }
 
 .testimonial-one__img-2 img {
@@ -5244,7 +5276,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--ogenix-black);
-  margin-top: 92px;
+  /* margin-top: 12px; */
   z-index: 1;
   overflow: hidden;
 }
@@ -5298,6 +5330,8 @@ ul {
 .footer-widget__logo {
   position: relative;
   display: block;
+  margin-right: 150px;
+  margin-top: 3px;
 }
 
 .footer-widget__about-text-box {
@@ -5398,6 +5432,7 @@ ul {
 .footer-widget__title-box {
   position: relative;
   display: inline-block;
+  margin-top: 22px;
   margin-bottom: 22px;
 }
 

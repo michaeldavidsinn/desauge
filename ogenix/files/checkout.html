@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Checkout  </title>
+    <title> Checkout </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -78,7 +78,7 @@
 
         <!--Page Header Start-->
         <section class="page-header">
-            <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+            <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/sausagebackground.jpg)">
             </div>
             <div class="page-header__ripped-paper"
                 style="background-image: url(assets/images/shapes/page-header-ripped-paper.png);"></div>
@@ -102,7 +102,6 @@
                     <div class="col-xl-6 col-lg-6">
                         <div class="billing_details">
                             <div class="billing_title">
-                                <p>Returning customer? <span>Click here to Login</span></p>
                                 <h2>Billing details</h2>
                             </div>
                             <form class="billing_details_form">
@@ -307,20 +306,16 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="pro__title">Product Name</td>
-                                            <td class="pro__price">$10.99 USD</td>
-                                        </tr>
-                                        <tr>
                                             <td class="pro__title">Subtotal</td>
-                                            <td class="pro__price">$10.99 USD</td>
+                                            <td class="pro__price" id="subtotal">Rp 0.000,00</td>
                                         </tr>
                                         <tr>
                                             <td class="pro__title">Shipping</td>
-                                            <td class="pro__price">$0.00 USD</td>
+                                            <td class="pro__price" id="shipping">Rp 0.000,00</td>
                                         </tr>
                                         <tr>
                                             <td class="pro__title">Total</td>
-                                            <td class="pro__price">$20.98 USD</td>
+                                            <td class="pro__price" id="total">Rp.0.000,00</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -331,22 +326,12 @@
                             <div class="checkout__payment">
                                 <div class="checkout__payment__item checkout__payment__item--active">
                                     <h3 class="checkout__payment__title">Direct bank transfer</h3>
-                                    <div class="checkout__payment__content">
-                                        Make your payment directly into our bank account. Please
-                                        use your Order ID as the payment reference. Your order
-                                        wont be shipped until the funds have cleared.
-                                    </div><!-- /.checkout__payment__content -->
-                                </div><!-- /.checkout__payment__item -->
+                                </div>
                                 <div class="checkout__payment__item">
-                                    <h3 class="checkout__payment__title">Paypal payment <img
-                                            src="assets/images/shop/paypal-1.jpg" alt=""></h3>
-                                    <div class="checkout__payment__content">
-                                        Make your payment directly into our bank account. Please
-                                        use your Order ID as the payment reference. Your order
-                                        wont be shipped until the funds have cleared.
-                                    </div><!-- /.checkout__payment__content -->
-                                </div><!-- /.checkout__payment__item -->
-                            </div><!-- /.checkout__payment -->
+                                    <h3 class="checkout__payment__title">GoPay</h3>
+
+                                </div>
+                            </div>
                             <div class="text-right d-flex justify-content-end">
                                 <a href="checkout.html" class="thm-btn">Place your order</a>
                             </div><!-- /.text-right -->
@@ -358,259 +343,15 @@
         </section>
         <!--End Checkout Page-->
 
-        <!--Subscribe One Start-->
-        <section class="subscribe-one">
-            <div class="container">
-                <div class="subscribe-one__inner">
-                    <div class="subscribe-one__shape-1 float-bob-x">
-                        <img src="assets/images/shapes/subscribe-one-shape-1.png" alt="">
-                    </div>
-                    <div class="subscribe-one__shape-2 float-bob-y">
-                        <img src="assets/images/shapes/subscribe-one-shape-2.png" alt="">
-                    </div>
-                    <div class="subscribe-one__shape-4 float-bob-y">
-                        <img src="assets/images/shapes/subscribe-one-shape-4.png" alt="">
-                    </div>
-                    <div class="subscribe-one__shape-5 zoominout">
-                        <img src="assets/images/shapes/subscribe-one-shape-5.png" alt="">
-                    </div>
-                    <div class="subscribe-one__inner-content">
-                        <div class="subscribe-one__shape-3 float-bob-x">
-                            <img src="assets/images/shapes/subscribe-one-shape-3.png" alt="">
-                        </div>
-                        <div class="row">
-                            <div class="col-xl-6">
-                                <div class="subscribe-one__left">
-                                    <div class="icon">
-                                        <span class="icon-folder"></span>
-                                    </div>
-                                    <div class="subscribe-one__title-box">
-                                        <span class="subscribe-one__tagline">Quisque vel ortor</span>
-                                        <h2 class="subscribe-one__title">Subscribe to newsletter</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="subscribe-one__right">
-                                    <div class="subscribe-one__shape-6 float-bob-x">
-                                        <img src="assets/images/shapes/subscribe-one-shape-6.png" alt="">
-                                    </div>
-                                    <div class="subscribe-one__form-box">
-                                        <form class="subscribe-one__form mc-form" data-url="MC_FORM_URL">
-                                            <div class="subscribe-one__input-box">
-                                                <input type="email" placeholder="Email Address" name="email">
-                                                <button type="submit" class="subscribe-one__btn"><i
-                                                        class="fas fa-paper-plane"></i></button>
-                                            </div>
-                                        </form>
-                                        <div class="mc-form__response"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Subscribe One End-->
-
         <!--Site Footer Start-->
-        <footer class="site-footer">
-            <div class="site-footer__bg"
-                style="background-image: url(assets/images/backgrounds/site-footer-bg-img.png);"></div>
-            <div class="site-footer__ripped-paper"
-                style="background-image: url(assets/images/shapes/site-footer-ripped-paper.png);"></div>
-            <div class="container">
-                <div class="site-footer__top">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="footer-widget__column footer-widget__about">
-                                <div class="footer-widget__logo">
-                                    <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
-                                </div>
-                                <div class="footer-widget__about-text-box">
-                                    <p class="footer-widget__about-text">We’re Providing Everyday Fresh <br> and
-                                        Quality
-                                        Products.</p>
-                                </div>
-                                <div class="footer-widget__social-box">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                            <div class="footer-widget__column footer-widget__explore">
-                                <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Explore</h3>
-                                </div>
-                                <div class="footer-widget__explore-list-box">
-                                    <ul class="footer-widget__explore-list list-unstyled">
-                                        <li><a href="about.html">About Company</a></li>
-                                        <li><a href="services.html">Our Services</a></li>
-                                        <li><a href="pricing.html">Become a Seller</a></li>
-                                        <li><a href="products.html">New Products</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="footer-widget__column footer-widget__contact">
-                                <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Contact</h3>
-                                </div>
-                                <p class="footer-widget__contact-text">Valentin, Street Road 24, New York,
-                                    USA - 67452</p>
-                                <ul class="list-unstyled footer-widget__contact-list">
-                                    <li>
-                                        <div class="text">
-                                            <p><a href="tel:928800688960">+92 (8800) 68 - 8960</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="text">
-                                            <p><a href="mailto:info@example.com ">info@example.com</a></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                            <div class="footer-widget__column footer-widget__gallery">
-                                <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Gallery</h3>
-                                </div>
-                                <ul class="footer-widget__gallery-list list-unstyled clearfix">
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-1.jpg" alt="">
-                                            <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-2.jpg" alt="">
-                                            <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-3.jpg" alt="">
-                                            <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-4.jpg" alt="">
-                                            <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-5.jpg" alt="">
-                                            <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-6.jpg" alt="">
-                                            <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="site-footer__bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="site-footer__bottom-inner">
-                                <div class="site-footer__bottom-left">
-                                    <p class="site-footer__bottom-text">© Copyright 2023 by <a href="#">Company.com</a>
-                                    </p>
-                                </div>
-                                <div class="site-footer__bottom-right">
-                                    <ul class="list-unstyled site-footer__bottom-menu">
-                                        <li><a href="about.html">Terms & Conditions</a></li>
-                                        <li><span>/</span></li>
-                                        <li><a href="about.html">Privacy Policy</a></li>
-                                        <li><span>/</span></li>
-                                        <li><a href="about.html">Privacy Policy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <!--Site Footer Start-->
+        <div id="footer"></div>
+        <!--Site Footer End-->
         <!--Site Footer End-->
 
 
     </div><!-- /.page-wrapper -->
 
-
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="104"
-                        alt="" /></a>
-            </div>
-            <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@ogenix.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__top">
-                <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div><!-- /.mobile-nav__social -->
-            </div><!-- /.mobile-nav__top -->
-
-
-
-        </div>
-        <!-- /.mobile-nav__content -->
-    </div>
-    <!-- /.mobile-nav__wrapper -->
-
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="icon-magnifying-glass"></i>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="icon-up-arrow"></i></a>
 
@@ -642,26 +383,85 @@
     <script src="assets/vendors/nice-select/jquery.nice-select.min.js"></script>
 
 
-
-
-    <!-- template js -->
-    <script src="assets/js/ogenix.js"></script>
-
     <script>
-        // Load header.html
+
         fetch('header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        // // Load footer.html jika ada
-        // fetch('footer.html')
-        //     .then(response => response.text())
-        //     .then(data => {
-        //         document.getElementById('footer').innerHTML = data;
-        //     });
+        // Load footer.html jika ada
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+
+        function updateOrderSummary() {
+            // Ambil nilai produk dari elemen HTML
+            const productPriceElement = document.getElementById('product-price');
+            const productPrice = parseFloat(productPriceElement.innerText.replace('$', '').replace(' USD', ''));
+
+            // Hitung subtotal (dalam contoh ini hanya satu produk)
+            const subtotal = productPrice;
+
+            // Hitung biaya pengiriman (misalnya $5.00)
+            const shipping = 5.00;
+
+            // Hitung total
+            const total = subtotal + shipping;
+
+            // Perbarui elemen HTML dengan hasil hitungan
+            document.getElementById('subtotal').innerText = `$${subtotal.toFixed(2)} USD`;
+            document.getElementById('shipping').innerText = `$${shipping.toFixed(2)} USD`;
+            document.getElementById('total').innerText = `$${total.toFixed(2)} USD`;
+        }
+
+        // Panggil fungsi saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', updateOrderSummary);
+
+        // Contoh panggilan saat pengguna mengubah jumlah produk
+        document.getElementById('product-quantity').addEventListener('change', updateOrderSummary);
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+            const cartSubtotal = localStorage.getItem('cartSubtotal') || 0;
+            const cartTotal = localStorage.getItem('cartTotal') || 0;
+
+            const cartItemsContainer = document.getElementById('cart-items');
+
+            cartItems.forEach(item => {
+                const itemTotal = item.price * item.quantity;
+                const cartItemHTML = `
+                    <tr>
+                        <td>
+                            <div class="product-box">
+                                <div class="img-box">
+                                    <img src="${item.image}" alt="">
+                                </div>
+                                <h3>${item.name}</h3>
+                            </div>
+                        </td>
+                        <td>Rp ${item.price.toLocaleString('id-ID')}</td>
+                        <td>${item.quantity}</td>
+                        <td>Rp ${itemTotal.toLocaleString('id-ID')}</td>
+                    </tr>
+                `;
+                cartItemsContainer.insertAdjacentHTML('beforeend', cartItemHTML);
+            });
+
+            document.querySelector('.cart-subtotal').innerText = `Rp ${parseFloat(cartSubtotal).toLocaleString('id-ID')}`;
+            document.querySelector('.cart-total-amount').innerText = `Rp ${parseFloat(cartTotal).toLocaleString('id-ID')}`;
+        });
+
     </script>
+
+
+
+    <!-- template js -->
+    <script src="assets/js/ogenix.js"></script>
+
 </body>
 
 </html>
